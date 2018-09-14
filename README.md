@@ -2,11 +2,14 @@
 Developing a RESTFul Api with Hapi.js
 
 // Get all users
+
 localhost:9000/api/users
 
 // create new user
 POST
+
 URL: localhost:9000/api/registration/user 
+
 payload
 {
  "firstName": "Ram",
@@ -18,8 +21,11 @@ payload
 }
 
 // Update User
+
 Request Type: PUT
+
 URL: localhost:9000/api/updateuser?userID=5b922322f113695d08a349fc
+
 payload
 {
  "firstName": "Ramesh",
@@ -33,5 +39,6 @@ payload
 // DELETE USER
 
 Request Type: Delete
+
 URL: localhost:9000/api/removeuser?userID=5b922322f113695d08a349fc
 
