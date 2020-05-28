@@ -7,7 +7,7 @@
     "dotenv": "^6.0.0",
     "glue": "^5.0.0",
     "hapi": "^17.5.4",
-    "mongoose": "^5.2.13",
+    "mongoose": "^5.7.5",
     "yarn": ">=1.22.0"
   },
   "devDependencies": {},
